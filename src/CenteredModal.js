@@ -1,6 +1,8 @@
 import React from 'react';
 import Modal from 'react-responsive-modal';
 
+import NewCalendar from './NewCalendar';
+
 import './CenteredModal.css'
 
 class CenteredModal extends React.Component {
@@ -30,11 +32,8 @@ class CenteredModal extends React.Component {
           <h2>Calendar</h2>
           </div>
           <div className="modal-content">
-          <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
-          pulvinar risus non risus hendrerit venenatis. Pellentesque sit amet
-          hendrerit risus, sed porttitor quam.
-          </p>
+
+          <NewCalendar />
           </div>
           <div className="modal-footer">
           <p>I am the footer</p>
